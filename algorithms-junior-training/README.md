@@ -80,4 +80,7 @@ node
 > reverseString("hello");
 ```
 
-Happy coding! 🎉
+For more tasks, check out:
+- [LeetCode](https://leetcode.com/)
+- [Codewars](https://www.codewars.com/)
+- [NeetCode](https://neetcode.io/)
