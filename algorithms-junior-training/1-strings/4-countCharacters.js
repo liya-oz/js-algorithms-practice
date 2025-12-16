@@ -4,7 +4,9 @@
  */
 
 function countCharacters(str) {
-  // Your code here
+  return str.split('').length;
 }
+
+console.log(countCharacters('hello'));
 
 module.exports = countCharacters;
