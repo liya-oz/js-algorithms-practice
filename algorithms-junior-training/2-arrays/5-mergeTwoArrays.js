@@ -4,7 +4,9 @@
  */
 
 function mergeArrays(arr1, arr2) {
-  // Your code here
+  let result = [...arr1, ...arr2];
+  return result;
 }
+console.log(mergeArrays([1, 2], [3, 4]));
 
 module.exports = mergeArrays;
