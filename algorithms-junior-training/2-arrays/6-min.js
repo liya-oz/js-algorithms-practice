@@ -4,7 +4,9 @@
  */
 
 function findMin(arr) {
-  // Your code here
+  arr.sort((a, b) => a - b);
+  return arr[0];
 }
+console.log(findMin([1, 5, 3, 9, 2]));
 
 module.exports = findMin;
