@@ -4,7 +4,8 @@
  */
 
 function findSecondLargest(arr) {
-  // Your code here
+  arr.sort((a, b) => a - b);
+  return arr[arr.length - 2];
 }
-
+console.log(findSecondLargest([1, 5, 3, 9, 2]));
 module.exports = findSecondLargest;

@@ -4,7 +4,9 @@
  */
 
 function findIndex(arr, element) {
-  // Your code here
+  return arr.indexOf(element);
 }
+
+console.log(findIndex([1, 2, 3, 4], 3));
 
 module.exports = findIndex;
