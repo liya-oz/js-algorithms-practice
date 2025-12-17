@@ -4,7 +4,11 @@
  */
 
 function mergeSortedArrays(arr1, arr2) {
-  // Your code here
+  let mergedArr = arr1.concat(arr2);
+  let sortedMergedArr = mergedArr.sort((a, b) => a - b);
+  return sortedMergedArr;
 }
+
+console.log(mergeSortedArrays([1, 3, 5], [2, 4, 6]));
 
 module.exports = mergeSortedArrays;
