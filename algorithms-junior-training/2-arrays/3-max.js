@@ -4,7 +4,10 @@
  */
 
 function findMax(arr) {
-  // Your code here
+  arr.sort((a, b) => a - b);
+  return arr[arr.length - 1];
 }
+
+console.log(findMax([1, 5, 3, 9, 2]));
 
 module.exports = findMax;
