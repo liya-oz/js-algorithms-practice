@@ -4,7 +4,8 @@
  */
 
 function reverseArray(arr) {
-  // Your code here
+  return arr.reverse();
 }
+console.log(reverseArray([1, 2, 3]));
 
 module.exports = reverseArray;
