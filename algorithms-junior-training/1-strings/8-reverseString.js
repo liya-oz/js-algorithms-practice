@@ -4,7 +4,9 @@
  */
 
 function reverseString(str) {
-  // Your code here
+  return str.split('').reverse().join('');
 }
+
+console.log(reverseString('hello'));
 
 module.exports = reverseString;
